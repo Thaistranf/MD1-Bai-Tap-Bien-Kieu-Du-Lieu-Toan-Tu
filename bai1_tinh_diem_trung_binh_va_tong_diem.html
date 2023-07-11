@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập điểm Sinh, Lý, Hóa rồi tính điểm trung bình và tổng điểm 3 môn</title>
+</head>
+<body>
+    <script>
+        let diemSinh = +prompt("Nhập điểm Sinh:");
+        let diemLy = +prompt("Nhập điểm Lý");
+        let diemHoa = +prompt("Nhập điểm Hóa:");
+        let average = (diemSinh + diemLy + diemHoa) / 3;
+        let sum = diemSinh + diemLy + diemHoa;
+
+        alert("Điểm trung bình là " + average);
+        alert("Tổng điểm là " + sum);
+    </script>
+</body>
+</html>

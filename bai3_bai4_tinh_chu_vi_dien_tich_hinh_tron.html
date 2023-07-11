@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính chu vi và diện tích hình tròn</title>
+</head>
+<body>
+    <script>
+        inputBanKinh = prompt("Nhập vào bán kính hình tròn:");
+        let banKinh = parseFloat(inputBanKinh);
+        let chuVi = banKinh * 2 * 3.14;
+        let dienTich = Math.pow(banKinh, 2) * 3.14;
+
+        document.write("Chu vi hình tròn là: " +chuVi);
+        document.write("<br>");
+        document.write("Diện tích hình tròn là: " +dienTich);
+    </script>
+</body>
+</html>
